@@ -10,7 +10,7 @@ int c=a;
 do{
         int o=a%10;
 b=b+(o*o*o);
-a=a/10;1
+a=a/10;1;
 }while(a>0);
 cout<<b<<"\n";
 if(b==c){
